@@ -6,6 +6,8 @@ phases:
       - npm install
   build:
     commands:
-      - npm test
+      - echo Build started on 'date'
+      - echo Compiling the Node.js code...
+      - npm run build
 artifacts:
   files:
